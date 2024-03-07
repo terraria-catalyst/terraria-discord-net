@@ -1,0 +1,60 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discord.Net.Core", "Discord.Net\src\Discord.Net.Core\Discord.Net.Core.csproj", "{D498018B-9CBB-4C32-8503-76CF4FE01DA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discord.Net.Rest", "Discord.Net\src\Discord.Net.Rest\Discord.Net.Rest.csproj", "{5EC2B363-6ABB-4105-A9E3-C6A61F21C108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discord.Net.WebSocket", "Discord.Net\src\Discord.Net.WebSocket\Discord.Net.WebSocket.csproj", "{997E7CD0-CFA1-4ABB-9E29-242F49562723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discord.Net.Commands", "Discord.Net\src\Discord.Net.Commands\Discord.Net.Commands.csproj", "{6676F6A1-50F9-4683-B436-88B7B69D3FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discord.Net.Webhook", "Discord.Net\src\Discord.Net.Webhook\Discord.Net.Webhook.csproj", "{947F4155-83BA-4C43-866D-552047F86836}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discord.Net.Interactions", "Discord.Net\src\Discord.Net.Interactions\Discord.Net.Interactions.csproj", "{511F2A2F-E116-499E-8DF4-6DAD0BEC6D2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2fac48b1-79c4-4a28-856a-c0aa6a30cdfe}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2fac48b1-79c4-4a28-856a-c0aa6a30cdfe}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2fac48b1-79c4-4a28-856a-c0aa6a30cdfe}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2fac48b1-79c4-4a28-856a-c0aa6a30cdfe}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6bcd3dfe-b0ab-45ca-befb-79c6eb6bba26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6bcd3dfe-b0ab-45ca-befb-79c6eb6bba26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6bcd3dfe-b0ab-45ca-befb-79c6eb6bba26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6bcd3dfe-b0ab-45ca-befb-79c6eb6bba26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D498018B-9CBB-4C32-8503-76CF4FE01DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D498018B-9CBB-4C32-8503-76CF4FE01DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D498018B-9CBB-4C32-8503-76CF4FE01DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D498018B-9CBB-4C32-8503-76CF4FE01DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EC2B363-6ABB-4105-A9E3-C6A61F21C108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC2B363-6ABB-4105-A9E3-C6A61F21C108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC2B363-6ABB-4105-A9E3-C6A61F21C108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC2B363-6ABB-4105-A9E3-C6A61F21C108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{997E7CD0-CFA1-4ABB-9E29-242F49562723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{997E7CD0-CFA1-4ABB-9E29-242F49562723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{997E7CD0-CFA1-4ABB-9E29-242F49562723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{997E7CD0-CFA1-4ABB-9E29-242F49562723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6676F6A1-50F9-4683-B436-88B7B69D3FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6676F6A1-50F9-4683-B436-88B7B69D3FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6676F6A1-50F9-4683-B436-88B7B69D3FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6676F6A1-50F9-4683-B436-88B7B69D3FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947F4155-83BA-4C43-866D-552047F86836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947F4155-83BA-4C43-866D-552047F86836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947F4155-83BA-4C43-866D-552047F86836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947F4155-83BA-4C43-866D-552047F86836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511F2A2F-E116-499E-8DF4-6DAD0BEC6D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511F2A2F-E116-499E-8DF4-6DAD0BEC6D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511F2A2F-E116-499E-8DF4-6DAD0BEC6D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511F2A2F-E116-499E-8DF4-6DAD0BEC6D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
